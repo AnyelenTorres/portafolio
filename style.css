@@ -1,0 +1,110 @@
+.body{
+   
+    background:#644949;
+    background-image: url(programmer-3607627_1280.png);
+    background-repeat: no-repeat;
+  
+}
+.presentacion{
+    color:#c7b3b3;
+    font-family: 'Arima', cursive;
+    font-size: xx-large;
+    margin: 0.1rem;
+    text-shadow: 0 4px 4px rgba(16, 35, 35, 0.9);
+}
+
+#informacion{
+    background:rgba(255, 255, 255,0.2);
+    backdrop-filter: blur(20px);
+    display :inline-block;
+    
+}
+
+
+.destaque{
+    font-size: 2rem;
+    font-family: 'Arima', cursive; 
+    text-align: center;
+    color:#0b0b09;
+    text-shadow: 0 4px 4px rgba(16, 35, 35, 0.9);
+    margin:2rem;
+
+}
+.destaque:hover{
+    font-size: 2.3rem; 
+    color:white; 
+   
+
+
+}
+.interior {
+    text-align: center;
+    display:none;
+    
+}
+
+#skills{
+    width:80px;
+    height: 80px;
+    border-radius: 100%;
+    margin:1rem;
+
+   
+}
+
+.proyectos{
+    display:grid;
+   
+}
+#pdf{
+    display:block;
+    margin:1rem;
+    width:4rem;
+    height:4rem;
+    border-radius:10px;
+    
+}
+#pdf:hover{
+    width:5rem;
+    height:5rem;
+    border-radius:10px;
+}
+
+
+
+
+
+
+.footer{
+   
+    text-align:center;
+    margin:1rem;
+    padding: 1rem; 
+}
+#iconos{
+   
+    width:30px;
+    height:30px;
+    margin:0px auto;
+   border-radius: 100%; 
+}
+#iconos:hover{
+    width:33px;
+    height:33px;
+    
+}
+#nav{
+    text-decoration: none;
+}
+#mi_fotografia{
+    width:100px;
+    height:100px;
+    border-radius: 100%; 
+    
+}
+#AnyelenTorres{
+    display: contents;
+    color: beige;
+}
+
+
