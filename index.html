@@ -17,7 +17,7 @@
         <div class="contenedor__fondo">
             <div class="presentacion">
                 <h1>Soy Anyelen Torres,</h1>
-                <h2>Desarrolladora web Full Stack.</h2>
+                <h2>Desarrolladora web-Full Stack.</h2>
                 
             </div>
         </div> 
@@ -27,13 +27,13 @@
             <h1 class="destaque" onclick="mostrarInteriorAboutMe()"> About me...</h1>
                 <ul id="interiorAboutMe" class="interior">
                     <img id="mi_fotografia"src="img__portafolio.jpg" alt="mi fotografia">
-                    <li>Soy de Mendoza Argentina.</li> 
-                    <li>Naci en de julio de 1991,Tengo 31 años </li>
+                    <li>Soy de Mendoza, Argentina.</li> 
+                    <li>Nací en de julio de 1991,Tengo 31 años </li>
                     <li>Soy ama de casa, mamá, hago bloques de cemento.<br> 
                         A mis 30 años di el paso a estudiar desarrolllo web, siendo autodidacta.<br> 
                         Pase por dos carreras anteriores,Diseño Industrial y Produccion Industrial Automatizada,<br>
                         la primera a la mitad.<br> 
-                        Ambas me guiaron hacia este camino, el de la programación.</li>
+                        Ambas me guiaron hacia este camino, el de la programación...</li>
                 </ul>
       
         
@@ -103,8 +103,30 @@
        
     </div>
 
-    <a ><img id="pdf"src="icons/pdf.jpg"></a>
+    <a onclick download="Anyelen Torres"><img id="pdf"src="icons/pdf.jpg"></a>
     <script src="script.js"></script>
+
+    <div id="formulario"class="container">
+        <h1 id="contacto">Contáctame</h1>
+        <form  id="formulario" target="_blank" action="https://formsubmit.co/giselanyelentorres@gmail.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input  id="formulario" type="text" name="name" class="form-control" placeholder="Nombre completo" required>
+              </div>
+              <div class="col">
+                <input  id="formulario" type="email" name="email" class="form-control" placeholder="Email" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Deja tu mensaje aquí..." id="formulario" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit"  id="formulario" class="btn btn-lg btn-dark btn-block">Enviar mensaje</button>
+        </form>
+      </div>
+
+
     </body>    
     <footer>
        
