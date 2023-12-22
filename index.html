@@ -15,13 +15,13 @@
     
     <body class="body">
         <div class="contenedor__fondo">
-            <div class="presentacion">
+            <div class="presentacion" >
                 <h1>Soy Anyelen Torres,</h1>
-                <h2>Desarrolladora web-Full Stack.</h2>
+                <h2>Desarrolladora web</h2>
                 
             </div>
         </div> 
-
+        
       <div id="informacion">
       
             <h1 class="destaque" onclick="mostrarInteriorAboutMe()"> About me...</h1>
@@ -44,7 +44,7 @@
                     <li>✔Curso de ingles"IMB".Finalizado</li>  
                     <li>✔Curso desarrollador Full Stack.Argentina Programa-en curso</li>  
                     <li>✔Curso desarrollador Full Stack "Programa Oracle Next Education". alura + ORACLE.Finalizado</li>
-                    <li>✔Curso de introduccion al testing y habilidades digitales.(ADA)</li>
+                    <li>✔Curso de introduccion al TESTING y habilidades digitales.(ADA)</li>
                     <li>✔Curso desarrollador Full Stack(Epica) </li>
 
                 </ul> 
@@ -57,6 +57,7 @@
                             <img id="skills" src="img/node.png" alt="node.js">
                             <img id="skills" src="icons/java.jpg" alt="Java">
                             <img id="skills" src="img/ruby.jpg" alt="Ruby">
+
                         </ul>
                         
               <h1 class="destaque" onclick= "mostrarInteriorProyectos()">Proyectos</h1>
@@ -93,23 +94,25 @@
        
     </div>
     <div id="formulario"class="container">
-        <h1 id="contacto">Contáctame</h1>
+        <h1 id="contacto">Contacto.</h1>
+        <label>
         <form  id="formulario" target="_blank" action="https://formsubmit.co/giselanyelentorres@gmail.com" method="POST">
           <div class="form-group">
             <div class="form-row">
               <div class="col">
-                <input  id="formulario" type="text" name="name" class="form-control" placeholder="Nombre completo" required>
+                <input class="email" id="formulario" type="text" name="name" class="form-control" placeholder="Nombre completo" required>
               </div>
               <div class="col">
-                <input  id="formulario" type="email" name="email" class="form-control" placeholder="Email" required>
+                <input class="email"  id="formulario" type="email" name="email" class="form-control" placeholder="Email: example@gmail.com" required>
               </div>
             </div>
           </div>
           <div class="form-group">
             <textarea placeholder="Deja tu mensaje aquí..." id="formulario" class="form-control" name="message" rows="10" required></textarea>
           </div>
-          <button type="submit"  id="formulario" class="btn btn-lg btn-dark btn-block">Enviar mensaje</button>
+          <button type="submit" class="btn"  >Enviar mensaje</button>
         </form>
+      </label>
       </div>
 
 

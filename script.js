@@ -28,16 +28,3 @@ function mostrarInteriorProyectos(){
     document.getElementById("interiorProyectos").style.display="block";
 }
 
-
-
-// Asignar la función para el evento click del botón
-//boton.addEventListener("click", abrirVentana);
-
-// Asignar la función para el evento click del documento
-document.addEventListener("click", cerrarVentana);
-
-
-
- //function cerrarVentana(){
-  // if (Event.target = display.block) {
-//document.getElementById("interiorAboutMe").style.display = "none";}}
