@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="es">
@@ -25,55 +26,39 @@
       <div id="informacion">
       
             <h1 class="destaque" onclick="mostrarInteriorAboutMe()"> About me...</h1>
-                <ul id="interiorAboutMe" class="interior">
+                <ul class="interior" id="interiorAboutMe" >
                     <img id="mi_fotografia"src="img__portafolio.jpg" alt="mi fotografia">
                     <li>Soy de Mendoza, Argentina.</li> 
                     <li>Tengo 32 años </li>
                     <li>He realizado cursos de desarrollo web full stack y testing.</li>
-                
+                    <button class="button"onclick="cerrarAboutMe()">ver menos</button>
                 </ul>
       
-        
-      
-            <h1 class="destaque" onclick="mostrarInteriorConocimientos()"> Conocimientos</h1>
+            <h1 class="destaque" onclick="mostrarInteriorConocimientos()"> Estudios / Cursos</h1>
                 <ul id="interiorConocimientos" class="interior">
                     <li>~Nivel de estudios alcanzado: universitarios incompletos:
                     <li>-Diseño Industrial.UNCUYO</li>
                     <li>-Produccion Industrial Automatizada.ITU(UNCUYO)</li>
                     <li>✔Curso de operador de pc.CCT "Helena Larroque de Roffo".Finalizado>
                     <li>✔Curso de ingles"IMB".Finalizado</li>  
-                    <li>✔Curso desarrollador Full Stack.Argentina Programa-en curso</li>  
+                    <li>✔Curso desarrollador Full Stack Argentina Programa</li>  
                     <li>✔Curso desarrollador Full Stack "Programa Oracle Next Education". alura + ORACLE.Finalizado</li>
                     <li>✔Curso de introduccion al TESTING y habilidades digitales.(ADA)</li>
-                    <li>✔Curso desarrollador Full Stack(Epica) </li>
-
+                    <li>✔Curso Javascript- Udemy</li>
+                    <li>✔Curso desarrollador Full Stack -Epica</li>
+                    <button class="button"onclick="cerrarConocimientos()">ver menos</button>
                 </ul> 
-    
-            <h1 class="destaque"onclick="mostrarInteriorHardSkills()"> Hard Skills</h1>
-                        <ul id="interiorHardSkills" class="interior">
-                            <img id="skills" src="img/office.png" alt="paquete_office"> 
-                            <img id="skills" src="icons/todo.png" alt="html-css-javascrpt">
-                            <img id="skills" src="img/git-github.png" alt="Git-GitHub">
-                            <img id="skills" src="img/node.png" alt="node.js">
-                            <img id="skills" src="icons/java.jpg" alt="Java">
-                            <img id="skills" src="img/ruby.jpg" alt="Ruby">
+                <h1 class="destaque"onclick="mostrarInteriorHardSkills()"> Hard Skills</h1>
+                <ul id="interiorHardSkills" class="interior">
+                    <img id="skills" src="img/office.png" alt="paquete_office"> 
+                    <img id="skills" src="icons/todo.png" alt="html-css-javascrpt">
+                    <img id="skills" src="img/git-github.png" alt="Git-GitHub">
+                    <img id="skills" src="img/node.png" alt="node.js">
+                    <img id="skills" src="icons/java.jpg" alt="Java"><br>
+                    <button class="button"onclick="cerrarHardSkills()">ver menos</button>
+                </ul>
 
-                        </ul>
-                        
-              <h1 class="destaque" onclick= "mostrarInteriorProyectos()">Proyectos</h1>
-            <a id="interiorProyectos" class="proyectos interior" href="https://anyelentorres.github.io/encriptador/">~Encriptador de texto</a>
-            <a id="interiorProyectos" class="proyectos interior" href="https://anyelentorres.github.io/juego-del-ahorcado/" >~Juego del ahorcado</a>            
-                        
-              
-            <h1 class="destaque"onclick= "mostrarInteriorIdiomas()">Idiomas</h1>
-                    <ul id="interiorIdiomas"  class="interior">
-                        <li>✔Español nativo</li> 
-                        <li>✔Ingles intermedio</li>
-                    </ul>
-              
-     
-        
-            <h1 class="destaque"onclick= "mostrarInteriorSoftSkills()">Soft Skills</h1>
+                <h1 class="destaque"onclick= "mostrarInteriorSoftSkills()">Soft Skills</h1>
                 <ul id="interiorSoftSkills" class="interior">
                     <li>✔Flexibilidad</li>
                     <li>✔ Empatía.</li> 
@@ -84,16 +69,28 @@
                     <li>✔Conocimiento de las Metodologias Agile/Kanban.</li>
                     <li>✔Conozco la utilizacion de Trello.</li> 
                     <img id="skills" src="img/agil.png" alt="agile">
-                    <img id="skills" src="icons/kanban.jpg" alt="kanban">
-                    
-
-          
+                    <img id="skills" src="icons/kanban.jpg" alt="kanban"><br>
+                    <button class="button"onclick="cerrarSoftSkills()">ver menos</button>
+                </ul>
+              <h1 class="destaque"onclick= "mostrarInteriorIdiomas()">Idiomas</h1>
+                    <ul id="interiorIdiomas"  class="interior">
+                        <li>✔Español nativo</li> 
+                        <li>✔Ingles intermedio</li>
+                        <button class="button"onclick="cerrarIdiomas()">ver menos</button>
+                    </ul>
+           
+              <h1 class="destaque" onclick= "mostrarInteriorProyectos()">Proyectos</h1>
+                <a id="interiorProyectos" class="proyectos interior" href="https://anyelentorres.github.io/encriptador/">~Encriptador de texto</a>
+                <a id="interiorProyectos" class="proyectos interior" href="https://anyelentorres.github.io/juego-del-ahorcado/" >~Juego del ahorcado</a>            
+                <a id="interiorProyectos" class="proyectos interior" href="https://anyelentorres.github.io/agenda/" >~Agenda</a>            
+                <h1 class="destaque">Repositorio de GitHub</h1>
+                <a id="interiorProyectos" class="proyectos interior" href="https://github.com/AnyelenTorres?tab=repositories" >~REPOSITORIO DE GITHUB</a>             
        
-        </div>
+      </div>
+ </div>
 
-       
-    </div>
-    <div id="formulario"class="container">
+
+<div id="formulario"class="container">
         <h1 id="contacto">Contacto.</h1>
         <label>
         <form  id="formulario" target="_blank" action="https://formsubmit.co/giselanyelentorres@gmail.com" method="POST">
@@ -117,22 +114,14 @@
 
 
     
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 
-    </body>    
-    <footer>
-       
-        <div class="footer">
+</body>    
+<footer>
+    <div class="footer">
             <a id="nav" href="https://github.com/AnyelenTorres"><img id="iconos"src="icons/github gris.png" alt="GitHub"></a> 
             <a id="nav" href="https://www.linkedin.com/in/anyelen-torres-41120b233/"><img id="iconos"src="icons/linkedin.png" alt="LinkeIn"></a>
-            <img id="mi_fotografia"src="img__portafolio.jpg" alt="mi fotografia">
             <p id="AnyelenTorres"> Creado por Anyelen Torres</p>
-            
-
-        </div>
-
-
-       
-       
+        </div> 
     </footer>
